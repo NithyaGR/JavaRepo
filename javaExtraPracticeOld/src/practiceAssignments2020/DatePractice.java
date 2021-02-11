@@ -1,4 +1,4 @@
-package practiceAssignments;
+package practiceAssignments2020;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

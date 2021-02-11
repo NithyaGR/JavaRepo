@@ -1,4 +1,4 @@
-package practiceAssignments;
+package practiceAssignments2020;
 
 public class ConcurrencyThreadDemo extends Thread {
 	public static int i;
