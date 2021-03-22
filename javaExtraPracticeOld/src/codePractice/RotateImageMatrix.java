@@ -1,4 +1,4 @@
-package leetCodePractice;
+package codePractice;
 
 import java.util.ArrayList;
 import java.util.List;
