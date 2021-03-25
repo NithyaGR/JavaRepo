@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
-
+//check
 public class CommonCharacterCount {
     static Map<Character, Integer> duplicateString(String s1){
     	
