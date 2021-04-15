@@ -12,17 +12,13 @@ public class ListPractice {
 		
 		List<String> myList = new ArrayList<String>();
 		
-		/*myList.add(0,"SriBhagavadGita");
-		myList.add(1,"SrimadBhagavatam");
-		myList.add(2, "DivyaPrabandam");
-		myList.add(3, "Narayneeyam");
-		myList.add(4,"Vedas");*/
 		myList.add("SriBhagavadGita");
 		myList.add("SrimadBhagavatam");
 		myList.add("DivyaPrabandam");
 		myList.add("Narayneeyam");
 		myList.add("Vedas");
 		myList.add(null);
+		
 		
 		System.out.println(myList);
 		for (int i =0; i<myList.size(); i++) {
