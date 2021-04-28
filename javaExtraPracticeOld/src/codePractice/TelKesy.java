@@ -63,6 +63,16 @@ public class TelKesy {
         		List<String> lis2 = telKeys.get(Character.toString(digits.charAt(1)));
                 result = concat(lis1, lis2);
             }  
+        	if(digits.length() >2) {
+        		
+        		StringBuilder sb = new StringBuilder(digits);
+        		int count = sb.length()-1; 
+        		while(count>0) {
+        			result = concat(telKeys.get(Character.toString(sb.charAt(count-1))), telKeys.get(Character.toString(sb.charAt(count))));
+        			sb.substring(0,count-2);
+        			count--;
+        		}
+        	}
         return result;
     }
     public static void concat(String s1, String s2) {
